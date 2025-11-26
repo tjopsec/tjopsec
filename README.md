@@ -1,53 +1,90 @@
+<!-- TJOPSEC BRAND HEADER -->
 <div align="center">
+  <img src="header.svg" width="100%" alt="TJOPSEC Banner" />
+</div>
 
-<a href="https://github.com/tjopsec">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00CED1&background=0F0F0F00&center=true&vCenter=true&width=600&lines=Initializing+TjopSec+Protocol...;Target:+Android+%2F%2F+Web+Endpoints;Status:+Grilling+the+bugs.;Mission:+'All+heat.+No+smoke.'" alt="TjopSec Terminal Boot" />
-</a>
+<br />
 
-<br/>
+<!-- INTRO / PROFESSIONAL FRONT -->
+<div align="center">
+  <p>
+    <code>root@tjopsec:~# whoami</code>
+  </p>
+  <h3>
+    Android Debugging // Web Endpoints // API Security
+  </h3>
+  <p>
+    <em>A security research collective blending the raw nature of South African culture with high-level cyber reconnaissance.</em>
+  </p>
 
-<h1 style="color: #800020;">🥩 TjopSec Research Group</h1>
 
-<img src="https://img.shields.io/badge/MISSION-ALL_HEAT._NO_SMOKE.-FF4500?style=for-the-badge&logoColor=white" alt="Slogan" />
+  <a href="https://raw.githubusercontent.com/tjopsec/tjopsec/refs/heads/main/tjopsec_public.asc">
 
+  <img src="https://img.shields.io/badge/PGP-KEY-800020%3Fstyle%3Dfor-the-badge%26logo%3Dprotonmail%26logoColor%3Dwhite" alt="PGP Key" />
+
+  </a>
+
+  <a href="">
+
+  <img src="https://img.shields.io/badge/DISCLOSURE-RESPONSIBLE-00CED1%3Fstyle%3Dfor-the-badge%26logo%3Dhackerone%26logoColor%3Dblack" alt="Disclosure" />
+
+  </a>
+
+</div>
+
+
+<br />
+
+<!-- MISSION PROTOCOL -->
+## 1. Mission Protocol
+
+We operate on a philosophy of aggressive hunting and responsible disclosure. We don't deal in smoke and mirrors; we cook the code until the bugs are exposed.
+
+- Focus: Android Application logic, Web Endpoint Enumeration, IDORs, and Broken Access Controls.
+- Methodology: Manual analysis over automated scanning.
+- Status: [ACTIVE]
+
+---
+
+<!-- VISUAL TERMINAL STATUS -->
+<div align="center">
+  <img src="terminal.svg" width="100%" alt="Terminal Status" />
 </div>
 
 ---
 
-### <span style="color: #00CED1">>_ 01_INTRODUCTION</span>
+<!-- THE VIBE / BRAAI CULTURE -->
+## 2. The Ethos
 
-> "We cook the code until the bugs are exposed."
+> "Nou gaan ons braai."
 
-We are a security research collective blending communal, raw nature with high-precision cyber reconnaissance. We specialize in **Web Endpoint** and **Android Application** debugging.
+While our reports are professional, our culture is "Cyber-Braai Punk." We treat security research like a good fire: it requires patience, the right fuel, and constant heat.
 
-* **Approach:** Aggressive hunting, responsible disclosure.
-* **Vibe:** Cyber-Braai Punk.
-
----
-
-### <span style="color: #00CED1">>_ 02_THE_GRILL [Tech Stack]</span>
-
-<div align="left">
-  <img src="https://img.shields.io/badge/TARGET-ANDROID-800020?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/TARGET-WEB_API-800020?style=flat-square&logo=google-chrome&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/LANG-PYTHON-0f0f0f?style=flat-square&logo=python&logoColor=00CED1" />
-  <img src="https://img.shields.io/badge/LANG-BASH-0f0f0f?style=flat-square&logo=gnu-bash&logoColor=00CED1" />
-  <img src="https://img.shields.io/badge/TOOL-BURPSUITE-FF4500?style=flat-square&logo=burpsuite&logoColor=white" />
-  <img src="https://img.shields.io/badge/TOOL-ADB-00CED1?style=flat-square&logo=android&logoColor=white" />
-</div>
-
-<br/>
-
-### <span style="color: #00CED1">>_ 03_STATS</span>
+| Term | Definition |
+| :--- | :--- |
+| Grilling | The act of deep-dive auditing. |
+| Spices | Custom payloads and scripts. |
+| Raw | A vulnerable endpoint. |
+| Well-done | Patched and secured. |
 
 ---
 
+<!-- TECH STACK (TEXT BASED TO MATCH TERMINAL VIBE) -->
+## 3. The Arsenal
+
+ini [Desktop_OS] > Kali Linux (Debian) > Arch (By the way)  [Mobile_Unit] > Rooted Pixel / Magisk > Frida / Objection / Drozer  [Web_Tools] > Burp Suite Pro > Caido > Custom Python Scripts 
+
+---
+
+<!-- CONTACT & REPORTING -->
+## 4. Contact & Keys
+
+If you are a vendor receiving a report from us, please verify the signature below.
+
+```
+"All heat. No smoke."
+```
+<!-- BRAND FOOTER -->
 <div align="center">
-  <br/>
-  <img src="https://img.shields.io/badge/PROTON-tjopsec%40proton.me-800020?style=flat-square&logo=protonmail&logoColor=white"/>
-  <a href="tjopsec_public.asc"><img src="https://img.shields.io/badge/PGP-DOWNLOAD_PUBLIC_KEY-00CED1?style=flat-square&logo=gnupg&logoColor=black"/></a>
-  
-  <br/><br/>
-  <p style="color: #7000FF; font-family: monospace; font-size: 10px;">// EST. 2025 // MEAT SPACE // CYBER-BRAAI PUNK //</p>
+  <img src="footer.svg" width="100%" alt="Footer" />
 </div>
