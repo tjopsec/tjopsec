@@ -1,10 +1,8 @@
-
 <div align="center">
   <img src="header.svg" width="100%" alt="TJOPSEC Banner" />
 </div>
 
 <br />
-
 
 <div align="center">
   <p>
@@ -17,33 +15,28 @@
     <em>A security research collective blending the raw nature of South African culture with high-level cyber reconnaissance.</em>
   </p>
 
-
   <img src="https://img.shields.io/badge/PROTON-tjopsec%40proton.me-800020?style=flat-square&logo=protonmail&logoColor=white"/>
   <a href="tjopsec_public.asc"><img src="https://img.shields.io/badge/PGP-DOWNLOAD_PUBLIC_KEY-00CED1?style=flat-square&logo=gnupg&logoColor=black"/></a>
 
 </div>
 
-
 <br />
-
 
 ## 1. Mission Protocol
 
 We operate on a philosophy of aggressive hunting and responsible disclosure. We don't deal in smoke and mirrors; we cook the code until the bugs are exposed.
 
-- Focus: Android Application logic, Web Endpoint Enumeration, IDORs, and Broken Access Controls.
-- Methodology: Manual analysis over automated scanning.
-- Status: [ACTIVE]
+- **Focus:** Android Application logic, Web Endpoint Enumeration, IDORs, and Broken Access Controls.
+- **Methodology:** Manual analysis over automated scanning.
+- **Status:** `[ACTIVE]`
 
 ---
-
 
 <div align="center">
   <img src="terminal.svg" width="100%" alt="Terminal Status" />
 </div>
 
 ---
-
 
 ## 2. The Ethos
 
@@ -53,29 +46,39 @@ While our reports are professional, our culture is "Cyber-Braai Punk." We treat 
 
 | Term | Definition |
 | :--- | :--- |
-| Grilling | The act of deep-dive auditing. |
-| Spices | Custom payloads and scripts. |
-| Raw | A vulnerable endpoint. |
-| Well-done | Patched and secured. |
+| **Grilling** | The act of deep-dive auditing. |
+| **Spices** | Custom payloads and scripts. |
+| **Raw** | A vulnerable endpoint. |
+| **Well-done** | Patched and secured. |
 
 ---
-
 
 ## 3. The Arsenal
 
-ini [Desktop_OS] > Kali Linux (Debian) > Arch (By the way)  [Mobile_Unit] > Rooted Pixel / Magisk > Frida / Objection / Drozer  [Web_Tools] > Burp Suite Pro > Caido > Custom Python Scripts 
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android_Rooted-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Magisk-000000?style=flat-square&logo=android&logoColor=009688" />
+  
+  <br />
+
+  <img src="https://img.shields.io/badge/Frida-C60C30?style=flat-square&logo=frida&logoColor=white" />
+  <img src="https://img.shields.io/badge/Objection-darkblue?style=flat-square&logo=ios&logoColor=white" />
+  <img src="https://img.shields.io/badge/JADX_GUI-E34F26?style=flat-square&logo=java&logoColor=white" />
+
+  <br />
+
+  <img src="https://img.shields.io/badge/Burp_Suite_Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python_Exploits-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Custom_Scripts-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+
+</div>
 
 ---
 
-<!-- CONTACT & REPORTING -->
 ## 4. Contact & Keys
 
 If you are a vendor receiving a report from us, please verify the signature below.
 
-```
-"All heat. No smoke."
-```
-
-<div align="center">
-  <img src="footer.svg" width="100%" alt="Footer" />
-</div>
+<div align="center"> <img src="footer.svg" width="100%" alt="Footer" /> </div>
