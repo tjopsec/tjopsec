@@ -1,0 +1,138 @@
+<svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+        
+        .term-container {
+          width: 100%;
+          height: 300px;
+          background-color: #0f0f0f;
+          font-family: 'Fira Code', monospace;
+          color: #e0e0e0;
+          font-size: 14px;
+          border: 1px solid #333;
+          border-radius: 6px;
+          overflow: hidden;
+          box-sizing: border-box;
+        }
+
+        .term-header {
+          background-color: #1a1a1a;
+          padding: 8px 15px;
+          border-bottom: 1px solid #333;
+          display: flex;
+          align-items: center;
+        }
+
+        .circle {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin-right: 8px;
+        }
+        .red { background: #FF4500; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #27c93f; }
+        
+        .term-title {
+          margin-left: 15px;
+          color: #888;
+          font-size: 12px;
+        }
+
+        .term-body {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .line {
+          display: flex;
+          align-items: center;
+        }
+
+        .prompt { color: #800020; margin-right: 10px; font-weight: bold; }
+        .cmd { color: #00CED1; }
+        .args { color: #e0e0e0; }
+        .comment { color: #555; margin-left: 15px; }
+        
+        .output {
+          color: #aaa;
+          margin-left: 20px;
+          margin-top: 5px;
+          margin-bottom: 10px;
+          font-size: 13px;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: #333;
+            width: 200px;
+            margin-top: 5px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .fill {
+            height: 100%;
+            background: #FF4500;
+            width: 0%;
+            animation: load 3s ease-out forwards;
+        }
+        
+        @keyframes load { to { width: 85%; } }
+
+        .cursor {
+          display: inline-block;
+          width: 8px;
+          height: 16px;
+          background: #FF4500;
+          animation: blink 1s step-end infinite;
+          vertical-align: middle;
+        }
+
+        @keyframes blink { 50% { opacity: 0; } }
+
+      </style>
+      <div class="term-container">
+        <div class="term-header">
+          <div class="circle red"></div>
+          <div class="circle yellow"></div>
+          <div class="circle green"></div>
+          <div class="term-title">root@tjopsec:~/targets</div>
+        </div>
+        <div class="term-body">
+          <div class="line">
+            <span class="prompt">root@tjopsec:~#</span>
+            <span class="cmd">./init_braai.sh</span>
+            <span class="args">--verbose</span>
+          </div>
+          <div class="output">
+            [+] Igniting coals... OK<br/>
+            [+] Loading Android Debug Bridge... OK<br/>
+            [+] Mounting endpoints... OK
+          </div>
+
+          <div class="line">
+            <span class="prompt">root@tjopsec:~#</span>
+            <span class="cmd">cat</span>
+            <span class="args">current_focus.txt</span>
+          </div>
+          <div class="output" style="color: #00CED1">
+            > Web Application Pentesting<br/>
+            > Android APK Reverse Engineering<br/>
+            > Secure Code Review
+          </div>
+
+          <div class="line">
+            <span class="prompt">root@tjopsec:~#</span>
+            <span class="cmd">grill_bugs</span>
+            <span class="cursor"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
