@@ -94,6 +94,9 @@
         }
 
         @keyframes blink { 50% { opacity: 0; } }
+        .cmd{
+margin-right:5px;
+        }
 
       </style>
       <div class="term-container">
@@ -117,7 +120,7 @@
 
           <div class="line">
             <span class="prompt">root@tjopsec:~#</span>
-            <span class="cmd">cat &nbsp;</span>
+            <span class="cmd">cat </span>
             <span class="args">current_focus.txt</span>
           </div>
           <div class="output" style="color: #00CED1">
