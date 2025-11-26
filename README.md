@@ -1,11 +1,11 @@
-<!-- TJOPSEC BRAND HEADER -->
+
 <div align="center">
   <img src="header.svg" width="100%" alt="TJOPSEC Banner" />
 </div>
 
 <br />
 
-<!-- INTRO / PROFESSIONAL FRONT -->
+
 <div align="center">
   <p>
     <code>root@tjopsec:~# whoami</code>
@@ -18,24 +18,15 @@
   </p>
 
 
-  <a href="https://raw.githubusercontent.com/tjopsec/tjopsec/refs/heads/main/tjopsec_public.asc">
-
-  <img src="https://img.shields.io/badge/PGP-KEY-800020%3Fstyle%3Dfor-the-badge%26logo%3Dprotonmail%26logoColor%3Dwhite" alt="PGP Key" />
-
-  </a>
-
-  <a href="">
-
-  <img src="https://img.shields.io/badge/DISCLOSURE-RESPONSIBLE-00CED1%3Fstyle%3Dfor-the-badge%26logo%3Dhackerone%26logoColor%3Dblack" alt="Disclosure" />
-
-  </a>
+  <img src="https://img.shields.io/badge/PROTON-tjopsec%40proton.me-800020?style=flat-square&logo=protonmail&logoColor=white"/>
+  <a href="tjopsec_public.asc"><img src="https://img.shields.io/badge/PGP-DOWNLOAD_PUBLIC_KEY-00CED1?style=flat-square&logo=gnupg&logoColor=black"/></a>
 
 </div>
 
 
 <br />
 
-<!-- MISSION PROTOCOL -->
+
 ## 1. Mission Protocol
 
 We operate on a philosophy of aggressive hunting and responsible disclosure. We don't deal in smoke and mirrors; we cook the code until the bugs are exposed.
@@ -46,14 +37,14 @@ We operate on a philosophy of aggressive hunting and responsible disclosure. We 
 
 ---
 
-<!-- VISUAL TERMINAL STATUS -->
+
 <div align="center">
   <img src="terminal.svg" width="100%" alt="Terminal Status" />
 </div>
 
 ---
 
-<!-- THE VIBE / BRAAI CULTURE -->
+
 ## 2. The Ethos
 
 > "Nou gaan ons braai."
@@ -69,7 +60,7 @@ While our reports are professional, our culture is "Cyber-Braai Punk." We treat 
 
 ---
 
-<!-- TECH STACK (TEXT BASED TO MATCH TERMINAL VIBE) -->
+
 ## 3. The Arsenal
 
 ini [Desktop_OS] > Kali Linux (Debian) > Arch (By the way)  [Mobile_Unit] > Rooted Pixel / Magisk > Frida / Objection / Drozer  [Web_Tools] > Burp Suite Pro > Caido > Custom Python Scripts 
@@ -84,7 +75,7 @@ If you are a vendor receiving a report from us, please verify the signature belo
 ```
 "All heat. No smoke."
 ```
-<!-- BRAND FOOTER -->
+
 <div align="center">
   <img src="footer.svg" width="100%" alt="Footer" />
 </div>
